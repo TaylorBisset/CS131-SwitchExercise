@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 using namespace std;
 
 /*
@@ -17,33 +18,35 @@ int main()
     int threes = 0;
     int fours = 0;
     int numCount = 0;
-    int randomNum = 0;
 
     while (numCount < 4000)
     {
-        randomNum = (rand() % 4) + 1;
+        int randomNum = (rand() % 4) + 1;
         switch (randomNum)
         {
         case 1:
             ones++;
+            numCount++;
             break;
         case 2:
             twos++;
+            numCount++;
             break;
         case 3:
             threes++;
+            numCount++;
             break;
         case 4:
             fours++;
+            numCount++;
             break;
         }
-        numCount++;
     }
     
     cout << "Here is the results of 4000 random numbers with values 1 - 4:\n";
     cout << "ones: "   << ones   << endl;
     cout << "twos: "   << twos   << endl;
     cout << "threes: " << threes << endl;
-    cout << "fours: "  << ones   << endl;
+    cout << "fours: "  << fours  << endl;
 
 }
