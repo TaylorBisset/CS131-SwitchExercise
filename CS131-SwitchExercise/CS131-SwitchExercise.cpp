@@ -11,12 +11,12 @@ numbers in our selected range.
 
 int main()
 {
-    int ones;
-    int twos;
-    int threes;
-    int fours;
-    int numCount;
-    int randomNum;
+    int ones = 0;
+    int twos = 0;
+    int threes = 0;
+    int fours = 0;
+    int numCount = 0;
+    int randomNum = 0;
 
     while (numCount <= 4000)
     {
