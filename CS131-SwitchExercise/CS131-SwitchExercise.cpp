@@ -20,6 +20,7 @@ int main()
 
     while (numCount <= 4000)
     {
+        randomNum = (rand() % 4) + 1;
         switch (randomNum)
         {
         case 1:
