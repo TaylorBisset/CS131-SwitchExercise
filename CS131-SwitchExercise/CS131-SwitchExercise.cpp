@@ -11,5 +11,29 @@ numbers in our selected range.
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int ones;
+    int twos;
+    int threes;
+    int fours;
+    int numCount;
+    int randomNum;
+
+    while (numCount <= 4000)
+    {
+        switch (randomNum)
+        {
+        case 1:
+            ones++;
+        case 2:
+            twos++;
+        case 3:
+            threes++;
+        case 4:
+            fours++;
+        }
+        numCount++;
+    }
+    
+    // final output
+
 }
